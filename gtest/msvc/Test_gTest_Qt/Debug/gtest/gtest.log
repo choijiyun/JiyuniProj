@@ -1,0 +1,22 @@
+﻿빌드 시작: 2012-04-07 오후 10:39:31
+     1>2 노드의 "C:\study\Test_gTest_Qt\gtest\msvc\gtest.vcxproj" 프로젝트(rebuild 대상)입니다.
+     1>_PrepareForClean:
+         "Test_gTest_Qt/Debug\gtest\gtest.lastbuildstate" 파일을 삭제하고 있습니다.
+       InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Test_gTest_Qt/Debug\gtest\gtest.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.. /I..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Test_gTest_Qt/Debug\gtest\\" /Fd"Test_gTest_Qt/Debug\gtest\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\src\gtest-all.cc"
+         gtest-all.cc
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\study\Test_gTest_Qt\gtest\msvc\Test_gTest_Qt/Debug\gtest.lib)이(가) Library의 OutputFile 속성 값(C:\study\Test_gTest_Qt\gtest\msvc\Test_gTest_Qt\Debug\gtestd.lib)과 일치하지 않습니다. 이로 인해 프로젝트가 잘못 빌드될 수 있습니다. 이를 수정하려면 $(OutDir), $(TargetName) 및 $(TargetExt) 속성 값이 %(Lib.OutputFile)에 지정된 값과 일치해야 합니다.
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(gtest)이(가) Library의 OutputFile 속성 값(gtestd)과 일치하지 않습니다. 이로 인해 프로젝트가 잘못 빌드될 수 있습니다. 이를 수정하려면 $(OutDir), $(TargetName) 및 $(TargetExt) 속성 값이 %(Lib.OutputFile)에 지정된 값과 일치해야 합니다.
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Test_gTest_Qt/Debug\gtestd.lib" /NOLOGO "Test_gTest_Qt/Debug\gtest\gtest-all.obj"
+         gtest.vcxproj -> C:\study\Test_gTest_Qt\gtest\msvc\Test_gTest_Qt/Debug\gtest.lib
+       FinalizeBuildStatus:
+         "Test_gTest_Qt/Debug\gtest\gtest.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Test_gTest_Qt/Debug\gtest\gtest.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\study\Test_gTest_Qt\gtest\msvc\gtest.vcxproj" 프로젝트를 빌드했습니다(rebuild 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:05.51
